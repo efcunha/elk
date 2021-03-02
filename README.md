@@ -20,11 +20,6 @@ Based on the official Docker images from Elastic:
 * [Logstash](https://github.com/elastic/logstash/tree/master/docker)
 * [Kibana](https://github.com/elastic/kibana/tree/master/src/dev/build/tasks/os_packages/docker_generator)
 
-Other available stack variants:
-
-* [`tls`](https://github.com/deviantony/docker-elk/tree/tls): TLS encryption enabled in Elasticsearch.
-* [`searchguard`](https://github.com/deviantony/docker-elk/tree/searchguard): Search Guard support
-
 ---
 
 ## Philosophy
@@ -129,11 +124,6 @@ you are upgrading an existing stack, please carefully read the note in the next 
 
 **:warning: Always pay attention to the [official upgrade instructions][upgrade] for each individual component before
 performing a stack upgrade.**
-
-Older major versions are also supported on separate branches:
-
-* [`release-6.x`](https://github.com/deviantony/docker-elk/tree/release-6.x): 6.x series
-* [`release-5.x`](https://github.com/deviantony/docker-elk/tree/release-5.x): 5.x series (End-Of-Life)
 
 ### Bringing up the stack
 
@@ -397,8 +387,8 @@ logstash:
 
 See the following Wiki pages:
 
-* [External applications](https://github.com/deviantony/docker-elk/wiki/External-applications)
-* [Popular integrations](https://github.com/deviantony/docker-elk/wiki/Popular-integrations)
+* [External applications](https://github.com/efcunha/elk/wiki/External-applications)
+* [Popular integrations](https://github.com/efcunha/elk/wiki/Popular-integrations)
 
 ### Swarm mode
 
